@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    /* 要素の外側を0にする */
+    padding: 0;
+    /* 要素の内側を0にする */
+    box-sizing: border-box;
+    /* widthの計算をborderとpaddingを含めたものにするための設定です */
+}
+
+@font-face {
+    font-family: 'g_pencilkaisho_free';
+    src: url('g_pencilkaisho_free.ttf') format('truetype');
+}
+body{
+    font-family: "g_pencilkaisho_free";
+}
+h1 {
+    color: #fff;
+    /* フォントの色を指定する */
+    font-size: 65px;
+    /* フォントの大きさを指定する */
+    text-align: center;
+    /* 行揃えを中央揃えに指定する */
+    font-family: "g_pencilkaisho_free";
+    height: 750px;
+    /* 高さを指定する */
+    padding-top: 200px;
+    letter-spacing: 15px;
+}
+
+li {
+    width: 300px;
+    float: left;
+    list-style-type: none;
+}
+
+header {
+    background-image: url("IMG_5282.JPG");
+    /*背景画像を指定する */
+    background-repeat: no-repeat;
+    /* 背景画像の繰り返しを指定する */
+    background-position: top center;
+    /* 背景画像の位置を指定する */
+}
+
+ul {
+    overflow: hidden;
+    margin: 0 auto;
+    width: 600px;
+    text-align-last: center;
+    letter-spacing: 5px;
+    padding-bottom: 15px;
+}
+
+.nav-btn {
+    color: #fff;
+    padding: 10px 25px;
+    font-size: 30px;
+    font-family: "g_pencilkaisho_free";
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: "g_pencilkaisho_free";
+    padding-top: 70px;
+    padding-bottom: 20px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.gallery {
+    overflow: hidden;
+    width: 1206px;
+    margin: 0 auto;
+}
+
+.gallery-item {
+    float: left;
+    display: block;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    height: 402px;
+}
+
+.gallery-items {
+    float: left;
+    display: block;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    height: 402px;
+    width: 602px;
+}
+
+.gallery-item-r {
+    height: 201px;
+    float: left;
+    display: block;
+    margin-right: 1px;
+    margin-bottom: 1px;
+}
+
+.gallery-item-c {
+    height: 805px;
+    float: left;
+    display: block;
+    margin-right: 1px;
+    margin-bottom: 1px;
+}
